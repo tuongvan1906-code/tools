@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Hành Trình Tomanoi nhí chinh phục Hình Học Nâng Cao Lớp 5</title>
+<title>Tomanoi Nhí Chinh phục Hình Học Nâng Cao Lớp 5</title>
 <style>
 :root{
   --orange:#f97316; --orange2:#fb923c; --amber:#fbbf24;
@@ -146,6 +146,7 @@ h3{margin:0 0 10px;font-size:22px;line-height:1.2}
   padding:34px;box-shadow:0 18px 55px rgba(15,23,42,.08);
   font-size:30px;font-weight:950;line-height:1.35;
 }
+.tip-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}.tip-card{background:white;border:1px solid #ffedd5;border-radius:22px;padding:16px;box-shadow:0 10px 28px rgba(15,23,42,.05)}.tip-card b{color:#ea580c}
 .footer{text-align:center;color:#64748b;padding:40px 20px}
 svg{width:100%;display:block}
 
@@ -241,12 +242,13 @@ svg{width:100%;display:block}
   <div class="wrap hero-grid">
     <div>
       <div class="badge">Hình học nâng cao lớp 5</div>
-      <h1>Tomanoi Nhí Chinh Phục Hình Học</h1>
-      <p>Mỗi ngày đi một chặng nhỏ: hiểu nguyên lý, luyện phản xạ, đánh boss bài toán, rồi tập viết lời giải rõ ràng. Mục tiêu không phải học thuộc, mà là nhìn hình và biết phải làm gì.</p>
+      <h1>Tomanoi Chinh Phục Hình Học</h1>
+      <p>Thành công là không ngừng...bỏ cuộc ;) Đùa thôi. Đừng bỏ cuộc khi chưa thử nhé. 
+Đi theo đúng thứ tự: xem bản đồ, học lộ trình, thí nghiệm bằng mắt, luyện phản xạ, tập viết lời giải, rồi mới đánh boss và thi thử.</p>
       <div class="row" style="margin-top:24px">
-        <button class="btn-primary" onclick="go('roadmap')">Bắt đầu lộ trình</button>
-        <button class="btn-light" onclick="go('labs')">Vào thí nghiệm</button>
-        <button class="btn-light" onclick="go('drill')">Luyện phản xạ</button>
+        <button class="btn-primary" onclick="go('roadmap')">2. Bắt đầu lộ trình</button>
+        <button class="btn-light" onclick="go('labs')">3. Vào thí nghiệm</button>
+        <button class="btn-light" onclick="go('drill')">4. Luyện phản xạ</button>
         <button class="btn-dark" onclick="go('writing')">Tập viết lời giải</button>
       </div>
     </div>
@@ -279,14 +281,14 @@ svg{width:100%;display:block}
 
 <nav class="nav">
   <div class="tabs">
-    <button class="tab active" data-tab="home" onclick="go('home')">Bản đồ</button>
-    <button class="tab" data-tab="roadmap" onclick="go('roadmap')">Lộ trình</button>
-    <button class="tab" data-tab="labs" onclick="go('labs')">Thí nghiệm</button>
-    <button class="tab" data-tab="drill" onclick="go('drill')">Drill nhanh</button>
-    <button class="tab" data-tab="writing" onclick="go('writing')">Viết lời giải</button>
-    <button class="tab" data-tab="practice" onclick="go('practice')">Đánh boss</button>
+    <button class="tab active" data-tab="home" onclick="go('home')">1. Bản đồ</button>
+    <button class="tab" data-tab="roadmap" onclick="go('roadmap')">2. Lộ trình</button>
+    <button class="tab" data-tab="labs" onclick="go('labs')">3. Thí nghiệm</button>
+    <button class="tab" data-tab="drill" onclick="go('drill')">4. Drill nhanh</button>
+    <button class="tab" data-tab="writing" onclick="go('writing')">5. Viết lời giải</button>
+    <button class="tab" data-tab="practice" onclick="go('practice')">6. Đánh boss</button>
     <button class="tab" data-tab="bank" onclick="go('bank')">Kho bài</button>
-    <button class="tab" data-tab="exam" onclick="go('exam')">Thi thử</button>
+    <button class="tab" data-tab="exam" onclick="go('exam')">7. Thi thử</button>
     <button class="tab" data-tab="cards" onclick="go('cards')">Mẹo nhớ</button>
   </div>
 </nav>
@@ -296,23 +298,22 @@ svg{width:100%;display:block}
   <div class="wrap">
     <div class="section-title">
       <div>
-        <div class="kicker">Bản đồ học hình</div>
-        <h2>Học hình theo 5 chặng</h2>
-        <div class="sub">App này dẫn con từ nhận diện nguyên lý đến luyện phản xạ và tập viết lời giải. Đi thi tự luận cần cả đáp án đúng và cách trình bày rõ.</div>
+        <div class="kicker">Bản đồ tương tác</div>
+        <h2>Con nên dùng app theo thứ tự nào?</h2>
+        <div class="sub">Đừng bấm lung tung lúc đầu. Đi đúng 7 bước dưới đây để hiểu chắc, luyện nhanh và viết lời giải tốt.</div>
       </div>
     </div>
-    <div class="grid grid-3">
-      <div class="card"><h3>Chặng 1: Nhìn ra hình</h3><p>Nhận biết chung chiều cao, chung đáy, trung điểm, tỉ lệ đoạn.</p><div class="progress-wrap"><div class="progress-fill" style="width:20%"></div></div></div>
-      <div class="card"><h3>Chặng 2: Luyện phản xạ</h3><p>Trả lời nhanh các câu ngắn để hình thành phản xạ trước khi gặp bài dài.</p><div class="progress-wrap"><div class="progress-fill" style="width:40%"></div></div></div>
-      <div class="card"><h3>Chặng 3: Ghép manh mối</h3><p>Kết hợp nhiều quan hệ diện tích trong cùng một bài.</p><div class="progress-wrap"><div class="progress-fill" style="width:60%"></div></div></div>
-      <div class="card"><h3>Chặng 4: Viết lời giải</h3><p>Tập dùng câu toán học: vì, nên, suy ra, vậy.</p><div class="progress-wrap"><div class="progress-fill" style="width:80%"></div></div></div>
-      <div class="card"><h3>Chặng 5: Thi thử</h3><p>Làm bài có thời gian, kiểm tra lỗi và quay lại luyện dạng yếu.</p><div class="progress-wrap"><div class="progress-fill" style="width:100%"></div></div></div>
-      <div class="card">
-        <h3>Câu thần chú</h3>
-        <div class="rule">Nhìn hình trước, tính sau.</div>
-        <div class="rule" style="margin-top:10px">Thấy tỉ lệ đoạn, đổi thành tỉ lệ diện tích.</div>
-      </div>
+    <div class="grid grid-4">
+      <div class="card"><span class="badge2 orange">1</span><h3>Bản đồ</h3><p>Biết hôm nay học theo trình tự nào.</p></div>
+      <div class="card"><span class="badge2 orange">2</span><h3>Lộ trình</h3><p>Đi từng chặng, không nhảy cóc.</p></div>
+      <div class="card"><span class="badge2 orange">3</span><h3>Thí nghiệm</h3><p>Nhìn hình chuyển động để hiểu nguyên lý.</p></div>
+      <div class="card"><span class="badge2 orange">4</span><h3>Drill nhanh</h3><p>Luyện phản xạ bằng câu ngắn, đáp án xáo trộn.</p></div>
+      <div class="card"><span class="badge2 orange">5</span><h3>Viết lời giải</h3><p>Tập trình bày tự luận bằng câu chuẩn.</p></div>
+      <div class="card"><span class="badge2 orange">6</span><h3>Đánh boss</h3><p>Luyện bài dài hơn, có manh mối và lời giải.</p></div>
+      <div class="card"><span class="badge2 orange">7</span><h3>Thi thử</h3><p>Làm 5 bài có thời gian.</p></div>
+      <div class="card"><span class="badge2 orange">+</span><h3>Mẹo nhớ</h3><p>Ôn lại trước khi làm bài khó.</p></div>
     </div>
+    <div class="card" style="margin-top:20px"><h3>4 câu hỏi cứu nguy khi bí bài</h3><div class="grid grid-4"><div class="rule">1. Có chung chiều cao không?</div><div class="rule">2. Có chung đáy không?</div><div class="rule">3. Đoạn nào bị chia tỉ lệ?</div><div class="rule">4. Có thể lấy to trừ nhỏ không?</div></div></div>
   </div>
 </section>
 
@@ -378,7 +379,7 @@ svg{width:100%;display:block}
       <div>
         <div class="kicker">Quick Drill</div>
         <h2>Luyện phản xạ 1 phút</h2>
-        <div class="sub">Các câu này rất ngắn. Mục tiêu là bấm nhanh và hiểu ngay vì sao đúng.</div>
+        <div class="sub">Các câu này rất ngắn. Đáp án đúng được xáo trộn, không còn luôn là A.</div>
       </div>
       <div class="row">
         <button class="btn-light" onclick="newDrill()">Câu khác</button>
@@ -445,7 +446,7 @@ svg{width:100%;display:block}
       <div>
         <div class="kicker">Boss bài toán</div>
         <h2>Bài dài hơn để ghép manh mối</h2>
-        <div class="sub">Khi đã có phản xạ, con chuyển sang bài tổng hợp. Đừng lao vào tính ngay.</div>
+        <div class="sub">Các bài đã được rà lại để tránh thiếu dữ liệu, sai đề, sai hướng giải. Đừng lao vào tính ngay.</div>
       </div>
       <div class="row">
         <button class="btn-light" onclick="nextProblem()">Boss khác</button>
@@ -529,7 +530,7 @@ svg{width:100%;display:block}
 </section>
 </main>
 
-<div class="footer">Hành Trình Chinh Phục Hình Học • Học nguyên lý, luyện phản xạ, viết lời giải</div>
+<div class="footer">Hành Trình Chinh Phục Hình Học • v7: rà đề, xáo đáp án, bổ sung mẹo nhớ</div>
 
 <script>
 const progress = JSON.parse(localStorage.getItem("geo_v5_progress") || '{"levels":[],"done":[],"drillCorrect":0,"drillTotal":0,"exam":0}');
@@ -555,29 +556,33 @@ const levels=[
 let selectedLevel=0;
 
 const problems=[
- {id:"Boss tỉ số 1",type:"Chung chiều cao",text:"Tam giác ABC có diện tích 5 cm². Kéo dài AB sao cho AB = BD. Kéo dài BC sao cho BC = 1/2 CE. Tính diện tích tam giác ADE.",answer:["30","30 cm2","30 cm²"],hint:"Hỏi trước: BE dài gấp mấy lần BC? Sau đó hỏi: AD dài gấp mấy lần AB?",steps:["Vì BC là 1 phần, CE là 2 phần nên BE là 3 phần.","ABC và ABE chung chiều cao từ A nên S(ABE)=3×5=15.","AB=BD nên AD=2AB. ABE và ADE chung chiều cao từ E, nên S(ADE)=2×15=30."],solution:"30 cm²"},
- {id:"Boss giao điểm",type:"Giao điểm + tỉ lệ",text:"Tam giác ABC. Trên BC lấy D sao cho BD=2DC. Trên AB lấy E sao cho AE=2BE. AD và CE cắt nhau tại F. Biết S(ACF)=20 cm². Tính S(ABC).",answer:["70","70 cm2","70 cm²"],hint:"Nối BF để có thêm tam giác phụ.",steps:["Nối BF.","Từ BD=2DC suy ra S(ABF)=2×S(ACF)=40.","AE=2/3 AB nên S(AEF)=2/3×40=80/3.","S(AEC)=20+80/3=140/3.","S(AEC)=2/3 S(ABC), nên S(ABC)=70."],solution:"70 cm²"},
- {id:"Boss hình chữ nhật",type:"Hình chữ nhật",text:"Hình chữ nhật ABCD, M là trung điểm AB. DB cắt MC tại K. Biết S(AMKD)=30 cm². Tính S(ABCD).",answer:["72","72 cm2","72 cm²"],hint:"Cắt tứ giác AMKD thành hai miếng: AMD và MDK.",steps:["S(AMD)=1/4 S(ABCD).","S(MDK)=1/6 S(ABCD).","S(AMKD)=5/12 S(ABCD)=30.","S(ABCD)=72."],solution:"72 cm²"},
- {id:"Boss tô màu 1",type:"Hình tròn + tô màu",text:"Hình chữ nhật ABCD có AD=4 cm. Hai cung tròn tâm D và C bán kính 4 cm. Diện tích phần tô đậm bằng phần gạch chéo. Tính CD.",answer:["6.28","6,28"],hint:"Tìm diện tích hình chữ nhật trước.",steps:["Mỗi 1/4 hình tròn bán kính 4 có diện tích 12,56.","Hai phần bằng nhau nên diện tích hình chữ nhật là 25,12.","CD=25,12:4=6,28."],solution:"6,28 cm"},
- {id:"Boss hình thang",type:"Hình thang",text:"Hình thang ABCD có CD=2AB. Biết S(ABC)=60 cm². Tính S(ACD) và S hình thang ABCD.",answer:["120;180","120 và 180","180"],hint:"Hai tam giác ABC và ACD có cùng chiều cao. Đáy CD gấp đôi AB.",steps:["Vì CD=2AB và cùng chiều cao nên S(ACD)=2×S(ABC)=120.","S hình thang = S(ABC)+S(ACD)=60+120=180."],solution:"S(ACD)=120 cm²; S hình thang=180 cm²"},
- {id:"Boss trung điểm",type:"Trung điểm",text:"Tam giác MNP có diện tích 180 cm². F là trung điểm NP, E là trung điểm MN. MF và PE cắt nhau tại I. Tính diện tích tam giác IMN.",answer:["60","60 cm2","60 cm²"],hint:"Hai trung điểm tạo các phần diện tích bằng nhau.",steps:["Từ trung điểm E suy ra các tam giác cùng chiều cao có đáy bằng nhau.","Từ trung điểm F suy ra tiếp các phần bằng nhau.","Ba tam giác PIM, PIN, MIN bằng diện tích.","S(IMN)=180:3=60."],solution:"60 cm²"},
- {id:"Boss hình tròn 2",type:"Hình tròn + tô màu",text:"Hình chữ nhật có chiều rộng 6 cm. Hai phần tư hình tròn bán kính 6 cm có tổng diện tích bằng diện tích hình chữ nhật. Tính chiều dài hình chữ nhật.",answer:["9.42","9,42"],hint:"Tính 1/4 hình tròn bán kính 6 rồi nhân 2.",steps:["1/4 hình tròn bán kính 6: 6×6×3,14:4=28,26.","Hai phần là 56,52.","Chiều dài = 56,52:6=9,42."],solution:"9,42 cm"},
- {id:"Boss bù trừ",type:"Bù trừ",text:"Một hình lớn có diện tích 120 cm². Bên trong có một phần không cần lấy diện tích 35 cm² và một phần không cần lấy diện tích 25 cm². Tính phần còn lại.",answer:["60","60 cm2","60 cm²"],hint:"Lấy hình to trừ hai phần thừa.",steps:["Tổng phần thừa là 35+25=60.","Phần còn lại là 120-60=60."],solution:"60 cm²"}
+ {id:"Bài 1: Kéo dài cạnh",type:"Chung chiều cao",text:"Tam giác ABC có diện tích 5 cm². Kéo dài AB qua B đến D sao cho AB = BD. Kéo dài BC qua C đến E sao cho CE = 2BC. Tính diện tích tam giác ADE.",answer:["30","30 cm2","30 cm²"],hint:"BE = BC + CE = 3BC. AD = AB + BD = 2AB.",steps:["ABC và ABE chung chiều cao từ A nên S(ABE)=3×S(ABC)=15.","ABE và ADE chung chiều cao từ E, AD=2AB nên S(ADE)=2×S(ABE)=30."],solution:"30 cm²"},
+ {id:"Bài 2: Giao điểm tỉ lệ",type:"Giao điểm + tỉ lệ",text:"Tam giác ABC. Trên BC lấy D sao cho BD=2DC. Trên AB lấy E sao cho AE=2BE. AD và CE cắt nhau tại F. Biết S(ACF)=20 cm². Tính S(ABC).",answer:["70","70 cm2","70 cm²"],hint:"Nối BF. Dùng BD:DC để so S(ABF) với S(ACF).",steps:["Nối BF.","Từ BD=2DC suy ra S(ABF)=2×S(ACF)=40.","AE=2/3 AB nên S(AEF)=2/3×40=80/3.","S(AEC)=20+80/3=140/3.","S(AEC)=2/3 S(ABC), nên S(ABC)=70."],solution:"70 cm²"},
+ {id:"Bài 3: Hình chữ nhật AMKD",type:"Hình chữ nhật",text:"Hình chữ nhật ABCD. M là trung điểm AB. DB cắt MC tại K. Biết S(AMKD)=30 cm². Tính S(ABCD).",answer:["72","72 cm2","72 cm²"],hint:"Tách AMKD thành AMD và MDK.",steps:["S(AMD)=1/4 S(ABCD).","S(MDK)=1/6 S(ABCD).","S(AMKD)=1/4+1/6=5/12 S(ABCD).","S(ABCD)=30:5/12=72."],solution:"72 cm²"},
+ {id:"Bài 4: Tô màu bán kính 4",type:"Hình tròn + tô màu",text:"Hình chữ nhật ABCD có AD=4 cm. Hai phần tư hình tròn bán kính 4 cm có tổng diện tích bằng diện tích hình chữ nhật. Tính CD.",answer:["6.28","6,28"],hint:"Tính hai phần tư hình tròn bán kính 4 rồi chia cho chiều rộng 4.",steps:["Một phần tư hình tròn bán kính 4 là 4×4×3,14:4=12,56.","Hai phần tư là 25,12.","Diện tích hình chữ nhật là 25,12 nên CD=25,12:4=6,28."],solution:"6,28 cm"},
+ {id:"Bài 5: Tô màu bán kính 6",type:"Hình tròn + tô màu",text:"Hình chữ nhật có chiều rộng 6 cm. Hai phần tư hình tròn bán kính 6 cm có tổng diện tích bằng diện tích hình chữ nhật. Tính chiều dài hình chữ nhật.",answer:["9.42","9,42"],hint:"Tính 1/4 hình tròn bán kính 6 rồi nhân 2.",steps:["1/4 hình tròn bán kính 6 là 6×6×3,14:4=28,26.","Hai phần tư là 56,52.","Chiều dài hình chữ nhật là 56,52:6=9,42."],solution:"9,42 cm"},
+ {id:"Bài 6: Hình thang hai đáy",type:"Hình thang",text:"Hình thang ABCD có hai đáy AB và CD, CD=2AB. Biết S(ABC)=60 cm². Tính S(ACD) và S hình thang ABCD.",answer:["120;180","120 và 180","180"],hint:"Tam giác ABC và ACD có chiều cao bằng nhau vì AB song song CD.",steps:["Vì CD=2AB và hai tam giác có chiều cao bằng nhau nên S(ACD)=2×S(ABC)=120.","S hình thang ABCD = S(ABC)+S(ACD)=60+120=180."],solution:"S(ACD)=120 cm²; S hình thang=180 cm²"},
+ {id:"Bài 7: Hình thang giao điểm",type:"Hình thang + giao điểm",text:"Hình thang ABCD có hai đáy AB song song CD, hai đường chéo cắt nhau tại O. Biết S(AOD)=9 cm² và S(BOC)=25 cm². Tính S(AOB).",answer:["15","15 cm2","15 cm²"],hint:"Trong hình thang, S(AOB)=S(DOC). Sau đó dùng tích diện tích.",steps:["Vì AB song song CD nên S(ABC)=S(DBC), suy ra S(AOB)=S(DOC).","Ta có S(AOD)×S(BOC)=S(AOB)×S(DOC).","Vì S(AOB)=S(DOC), nên S(AOB)²=9×25=225.","S(AOB)=15."],solution:"15 cm²"},
+ {id:"Bài 8: Hình thang tỉ lệ",type:"Hình thang + tỉ lệ",text:"Hình thang ABCD có CD=3AB. Trên CD lấy M sao cho DM=1/2 MC. Biết S(ADM)=5 cm². Tính S(ABCD).",answer:["20","20 cm2","20 cm²"],hint:"Từ DM=1/2 MC suy ra CD=3DM. Mà CD=3AB nên AB=DM.",steps:["DM=1/2 MC nên MC=2DM, do đó CD=3DM.","CD=3AB nên AB=DM.","S(MAB)=S(ADM)=5 vì có đáy bằng nhau và chiều cao bằng nhau.","S(BMC)=2×S(ADM)=10.","S(ABCD)=5+5+10=20."],solution:"20 cm²"},
+ {id:"Bài 9: Hai trung điểm",type:"Trung điểm + giao điểm",text:"Tam giác MNP có diện tích 180 cm². F là trung điểm NP, E là trung điểm MN. Hai đoạn MF và PE cắt nhau tại I. Tính diện tích tam giác IMN.",answer:["60","60 cm2","60 cm²"],hint:"Hai đường trung tuyến cắt nhau tạo các phần diện tích liên hệ bằng nhau.",steps:["Vì E là trung điểm MN nên các tam giác có đáy ME và EN bằng nhau khi chung chiều cao.","Vì F là trung điểm NP nên tiếp tục có các cặp diện tích bằng nhau.","Suy ra ba tam giác PIM, PIN, MIN có diện tích bằng nhau.","S(IMN)=180:3=60."],solution:"60 cm²"},
+ {id:"Bài 10: Hình bình hành",type:"Hình bình hành",text:"Hình bình hành ABCD. Trên AB lấy E sao cho AE=2/3 AB. a) Tính S(AEC):S(ADC). b) Biết S(AECD)=25 cm², tính S(ABC).",answer:["2:3;15","2/3;15","15"],hint:"Trong hình bình hành, AB=DC và các chiều cao tương ứng bằng nhau.",steps:["AE=2/3 AB và AB=DC nên AE=2/3 DC.","S(AEC):S(ADC)=AE:DC=2:3.","S(AECD)=S(AEC)+S(ADC)=25, trong đó S(ADC) chiếm 3/5.","S(ADC)=15. Trong hình bình hành, S(ABC)=S(ADC)=15."],solution:"a) 2:3; b) 15 cm²"},
+ {id:"Bài 11: Trung điểm và tỉ lệ",type:"Trung điểm + tỉ lệ",text:"Tam giác ABC. M là trung điểm AB. Trên AC lấy N sao cho NA=2NC. Đường thẳng MN cắt đường thẳng BC tại D. a) Tính S(AMN):S(BMNC). b) So sánh BC và CD.",answer:["1:2;BC=CD","1/2;BC=CD","BC=CD"],hint:"AM=1/2 AB và AN=2/3 AC.",steps:["S(AMN)=1/2×2/3 S(ABC)=1/3 S(ABC).","S(BMNC)=2/3 S(ABC).","Vậy S(AMN):S(BMNC)=1:2.","Từ quan hệ diện tích quanh D suy ra BC=CD."],solution:"a) 1:2; b) BC = CD"},
+ {id:"Bài 12: Bù trừ cơ bản",type:"Bù trừ",text:"Một hình lớn có diện tích 120 cm². Bên trong có hai phần không lấy, diện tích lần lượt là 35 cm² và 25 cm². Tính phần còn lại.",answer:["60","60 cm2","60 cm²"],hint:"Lấy hình to trừ hai phần thừa.",steps:["Tổng phần thừa là 35+25=60.","Phần còn lại là 120-60=60."],solution:"60 cm²"}
 ];
 
 const drills=[
- {type:"Nhận diện",q:"Hai tam giác chung chiều cao thì diện tích tỉ lệ với gì?",opts:["Đáy","Màu sắc","Tên điểm","Chu vi"],a:0,why:"Cùng chiều cao thì chiều cao không đổi, nên chỉ cần so đáy."},
- {type:"Nhận diện",q:"Hai tam giác chung đáy thì diện tích tỉ lệ với gì?",opts:["Chiều cao","Số chữ cái","Góc nhọn","Màu hình"],a:0,why:"Cùng đáy thì đáy không đổi, nên diện tích phụ thuộc vào chiều cao."},
- {type:"Tỉ lệ",q:"BD = 2DC. Nếu hai tam giác ABD và ADC chung chiều cao từ A, tỉ số diện tích là gì?",opts:["2:1","1:2","3:1","1:3"],a:0,why:"BD có 2 phần, DC có 1 phần, nên diện tích cũng 2:1."},
- {type:"Tỉ lệ",q:"AE = 2BE. Vậy AB gồm mấy phần bằng nhau?",opts:["3 phần","2 phần","4 phần","1 phần"],a:0,why:"AE có 2 phần, BE có 1 phần, cả AB có 3 phần."},
- {type:"Trung điểm",q:"M là trung điểm BC. Vậy BM và MC như thế nào?",opts:["Bằng nhau","BM gấp đôi MC","MC gấp đôi BM","Không biết"],a:0,why:"Trung điểm chia đoạn thẳng thành hai phần bằng nhau."},
- {type:"Hình thang",q:"Trong hình thang, hai đáy song song giúp ta thường suy ra điều gì?",opts:["Chiều cao bằng nhau","Chu vi bằng nhau","Màu bằng nhau","Góc luôn vuông"],a:0,why:"Hai đáy song song làm các chiều cao giữa hai đáy bằng nhau."},
- {type:"Hình tròn",q:"Diện tích 1/4 hình tròn bán kính r là gì?",opts:["r×r×3,14:4","r×3,14","r×r×3,14","r×r:4"],a:0,why:"Cả hình tròn là r×r×3,14. Một phần tư thì chia 4."},
- {type:"Bù trừ",q:"Muốn tìm phần còn lại trong hình lớn, thường làm gì?",opts:["Lấy hình lớn trừ phần thừa","Cộng tất cả số thấy được","Nhân đôi hình lớn","Bỏ qua phần thừa"],a:0,why:"Phần còn lại = hình lớn − các phần không cần lấy."},
- {type:"Lời giải",q:"Câu nào viết lời giải chặt chẽ hơn?",opts:["Vì hai tam giác chung chiều cao nên tỉ số diện tích bằng tỉ số đáy.","Nhìn giống nhau nên bằng nhau.","Em đoán là gấp đôi.","Vì hình màu cam to hơn."],a:0,why:"Lời giải cần nêu đúng quan hệ hình học, không chỉ nói bằng cảm giác."},
- {type:"Đơn vị",q:"Diện tích nên ghi đơn vị nào?",opts:["cm²","cm","kg","phút"],a:0,why:"Diện tích dùng đơn vị vuông như cm², m²."},
- {type:"Đảo tỉ số",q:"Nếu BD:DC = 3:2 thì S(ADC):S(ABD) là gì?",opts:["2:3","3:2","5:2","2:5"],a:0,why:"S(ABD):S(ADC)=3:2, nên hỏi ngược lại S(ADC):S(ABD)=2:3."},
- {type:"Hình chữ nhật",q:"Đường chéo hình chữ nhật chia hình thành mấy tam giác bằng diện tích?",opts:["2","3","4","Không chia được"],a:0,why:"Một đường chéo chia hình chữ nhật thành hai tam giác bằng nhau."}
+ {type:"Nhận diện",q:"Hai tam giác chung chiều cao thì diện tích tỉ lệ với gì?",opts:["Đáy","Màu sắc","Tên điểm","Chu vi"],correct:"Đáy",why:"Cùng chiều cao thì chiều cao không đổi, nên chỉ cần so đáy."},
+ {type:"Nhận diện",q:"Hai tam giác chung đáy thì diện tích tỉ lệ với gì?",opts:["Chiều cao","Số chữ cái","Góc nhọn","Màu hình"],correct:"Chiều cao",why:"Cùng đáy thì đáy không đổi, nên diện tích phụ thuộc vào chiều cao."},
+ {type:"Tỉ lệ",q:"BD = 2DC. Nếu hai tam giác ABD và ADC chung chiều cao từ A, tỉ số S(ABD):S(ADC) là gì?",opts:["2:1","1:2","3:1","1:3"],correct:"2:1",why:"BD có 2 phần, DC có 1 phần, nên diện tích cũng 2:1."},
+ {type:"Tỉ lệ",q:"AE = 2BE. Vậy AB gồm mấy phần bằng nhau?",opts:["3 phần","2 phần","4 phần","1 phần"],correct:"3 phần",why:"AE có 2 phần, BE có 1 phần, cả AB có 3 phần."},
+ {type:"Trung điểm",q:"M là trung điểm BC. Vậy BM và MC như thế nào?",opts:["Bằng nhau","BM gấp đôi MC","MC gấp đôi BM","Không biết"],correct:"Bằng nhau",why:"Trung điểm chia đoạn thẳng thành hai phần bằng nhau."},
+ {type:"Hình thang",q:"Trong hình thang, hai đáy song song giúp ta thường suy ra điều gì?",opts:["Chiều cao bằng nhau","Chu vi bằng nhau","Màu bằng nhau","Góc luôn vuông"],correct:"Chiều cao bằng nhau",why:"Hai đáy song song làm các chiều cao giữa hai đáy bằng nhau."},
+ {type:"Hình tròn",q:"Diện tích 1/4 hình tròn bán kính r là gì?",opts:["r×r×3,14:4","r×3,14","r×r×3,14","r×r:4"],correct:"r×r×3,14:4",why:"Cả hình tròn là r×r×3,14. Một phần tư thì chia 4."},
+ {type:"Bù trừ",q:"Muốn tìm phần còn lại trong hình lớn, thường làm gì?",opts:["Lấy hình lớn trừ phần thừa","Cộng tất cả số thấy được","Nhân đôi hình lớn","Bỏ qua phần thừa"],correct:"Lấy hình lớn trừ phần thừa",why:"Phần còn lại = hình lớn − các phần không cần lấy."},
+ {type:"Lời giải",q:"Câu nào viết lời giải chặt chẽ hơn?",opts:["Vì hai tam giác chung chiều cao nên tỉ số diện tích bằng tỉ số đáy.","Nhìn giống nhau nên bằng nhau.","Em đoán là gấp đôi.","Vì hình màu cam to hơn."],correct:"Vì hai tam giác chung chiều cao nên tỉ số diện tích bằng tỉ số đáy.",why:"Lời giải cần nêu đúng quan hệ hình học, không chỉ nói bằng cảm giác."},
+ {type:"Đơn vị",q:"Diện tích nên ghi đơn vị nào?",opts:["cm²","cm","kg","phút"],correct:"cm²",why:"Diện tích dùng đơn vị vuông như cm², m²."},
+ {type:"Đảo tỉ số",q:"Nếu BD:DC = 3:2 thì S(ADC):S(ABD) là gì?",opts:["2:3","3:2","5:2","2:5"],correct:"2:3",why:"S(ABD):S(ADC)=3:2, nên hỏi ngược lại là 2:3."},
+ {type:"Hình chữ nhật",q:"Đường chéo hình chữ nhật chia hình thành mấy tam giác bằng diện tích?",opts:["2","3","4","Không chia được"],correct:"2",why:"Một đường chéo chia hình chữ nhật thành hai tam giác bằng nhau."}
 ];
 
 const writingTasks=[
@@ -859,22 +864,25 @@ function renderLevelDetail(){
 function completeLevel(id){if(!progress.levels.includes(id)) progress.levels.push(id);save();renderLevelDetail();renderLevels();}
 function resetProgress(){progress.levels=[];progress.done=[];progress.drillCorrect=0;progress.drillTotal=0;progress.exam=0;save();renderLevelDetail();updateDrillStats();}
 
+function shuffle(arr){return arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);}
 function renderDrill(){
  const d=drills[drillIndex];
+ currentDrillOptions=shuffle(d.opts);
  document.getElementById("drillMeta").innerHTML=`<span class="badge2 orange">${d.type}</span>`;
  document.getElementById("drillQuestion").textContent=d.q;
- document.getElementById("drillOptions").innerHTML=d.opts.map((o,i)=>`<button class="option" onclick="answerDrill(${i})">${o}</button>`).join("");
+ document.getElementById("drillOptions").innerHTML=currentDrillOptions.map((o,i)=>`<button class="option" onclick="answerDrill(${i})">${String.fromCharCode(65+i)}. ${o}</button>`).join("");
  document.getElementById("drillFeedback").innerHTML="";
 }
 function newDrill(){drillIndex=Math.floor(Math.random()*drills.length);renderDrill();}
 function answerDrill(i){
  const d=drills[drillIndex];
+ const chosen=currentDrillOptions[i];
  const buttons=[...document.querySelectorAll("#drillOptions .option")];
- buttons.forEach((b,idx)=>{b.disabled=true;if(idx===d.a)b.classList.add("correct");});
- if(i!==d.a) buttons[i].classList.add("wrong");
- progress.drillTotal++; if(i===d.a) progress.drillCorrect++;
+ buttons.forEach((b,idx)=>{b.disabled=true;if(currentDrillOptions[idx]===d.correct)b.classList.add("correct");});
+ if(chosen!==d.correct) buttons[i].classList.add("wrong");
+ progress.drillTotal++; if(chosen===d.correct) progress.drillCorrect++;
  save(); updateDrillStats();
- document.getElementById("drillFeedback").innerHTML=i===d.a?`<span class="ok">Đúng.</span> ${d.why}`:`<span class="bad">Chưa đúng.</span> ${d.why}`;
+ document.getElementById("drillFeedback").innerHTML=chosen===d.correct?`<span class="ok">Đúng.</span> ${d.why}`:`<span class="bad">Chưa đúng.</span> ${d.why}`;
  if(drillMode){
    drillSetCount++;
    if(drillSetCount<10) setTimeout(()=>{newDrill()},900);
